@@ -1,41 +1,73 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="bymfd.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="bymfd.github.io/" rel="alternate" type="text/html" /><updated>2020-04-08T15:45:09+03:00</updated><id>bymfd.github.io/feed.xml</id><title type="html">bymfd</title><subtitle>Projelerim ve kendim hakkımda bilgiler verdiğim basit ama etkili web sitem</subtitle><author><name>bymfd</name></author><entry><title type="html">Otomatik vitesli bisiklet</title><link href="bymfd.github.io/tech/2019/06/06/otomatik-vitesli-bisiklet/" rel="alternate" type="text/html" title="Otomatik vitesli bisiklet" /><published>2019-06-06T00:00:00+03:00</published><updated>2019-06-06T00:00:00+03:00</updated><id>bymfd.github.io/tech/2019/06/06/otomatik-vitesli-bisiklet</id><content type="html" xml:base="bymfd.github.io/tech/2019/06/06/otomatik-vitesli-bisiklet/">&lt;p&gt;Project Details&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-04-08T21:24:53+03:00</updated><id>/feed.xml</id><title type="html">bymfd</title><subtitle>Projelerim ve kendim hakkımda bilgiler verdiğim basit ama etkili web sitem</subtitle><author><name>bymfd</name></author><entry><title type="html">Otomatik vitesli bisiklet</title><link href="/tech/2019/06/06/otomatik-vitesli-bisiklet/" rel="alternate" type="text/html" title="Otomatik vitesli bisiklet" /><published>2019-06-06T00:00:00+03:00</published><updated>2019-06-06T00:00:00+03:00</updated><id>/tech/2019/06/06/otomatik-vitesli-bisiklet</id><content type="html" xml:base="/tech/2019/06/06/otomatik-vitesli-bisiklet/">&lt;p&gt;Bisiklet, ulaşım, eğlence, spor, hobi ve taşımacılık gibi alanlarda kullanılmaktadır. Günümüzde bisikletinde en yaygın olarak kullanılan vites kadronun dışında, ayrı bir birim olarak yer alan ön ve arka aktarıcılara dayanan sistemdir Gidilen yol ile uygulanan güç arasındaki ilişkiyi kontrol eder. Vites sistemi pedala bağlı ayna kol yani ön vites dişli takımından ve arka tekerleğe bağlı arka vites dişli takımından oluşur. Gidon çevresinde bulunan sağ vites kontrol kolu arka vitesi, sol vites kontrol kolu ise ön vitesi kontrol eder.
+Sürücüyü en az yoran, konforlu ve en çok performans sağlamak ayrıca insanlara bisiklet kullanımını daha çok sevdirmek ve doğa kirliliğini önlemek için otomatik vites sistemini uygun bir çözüm olarak görülmüştür&lt;/p&gt;
 
-&lt;p&gt;For Automatic transmission system for bicycles&lt;/p&gt;
+&lt;p&gt;diyerek başladık söze ve  Tübitak a sunduk, projemiz 2 kez konya bölge birincisi oldu bizde en iyisi özgürleştirmek deyip saldık buraya.&lt;/p&gt;
+&lt;iframe allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;344&quot; src=&quot;https://www.youtube.com/embed/njGc3xy0Feg&quot; width=&quot;459&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;Compatible with all bike gears working with wire, Arduino-LCD based
-mevlüt furkan demirmevlüt furkan demir •06/28/2019 at 16:02&lt;/p&gt;
+&lt;p&gt;geliştirdiğimiz sistem ile otomatik  tüm rublle dişlili bisikletler , göbekten vitesli bisikletler için kullanabilir olacaksınız. &lt;br /&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;b&gt; İhtiyacınız olan şeyler&lt;/b&gt; &lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;arduino (pro mini yada uno ile test ettik)&lt;/li&gt;
+  &lt;li&gt;bolca kablo,havya seti&lt;/li&gt;
+  &lt;li&gt;bir motor sürcüsü&lt;/li&gt;
+  &lt;li&gt;bir servo motor (mg996 ile yaptık)&lt;/li&gt;
+  &lt;li&gt;rotary encoder&lt;/li&gt;
+  &lt;li&gt;ekran (2*16 veya oled 0.96” için yaptık )&lt;/li&gt;
+  &lt;li&gt;hayal gücü&lt;/li&gt;
+  &lt;li&gt;matkap,tornavida,vidalar ,flex vs vs bisiklete monte etmek için gereken herşey&lt;/li&gt;
+  &lt;li&gt;el becerisi ve azim&lt;/li&gt;
+  &lt;li&gt;birsürü boru (boyutları verdim biz metal kullandık varsa 3d printer müthiş olur )&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;4 Panasonic / Sanyo CGR18650CG 2200 mAh LI-ion batteries were used to power the motor drive and arduino. One battery provides a rated voltage of 3.6 volts. Batteries are connected to each other in series and 14.4 volt voltage is provided. However, this 14.4 volt voltage is too high for the dc motor of the servo, which can damage the motor. Using the LM7812 regulator integrated voltage, the drive and arduino are powered by reducing the voltage to 12 volts.
-Panasonic / Sanyo CGR18650CG 2200 mAh LI-ion 4 batteries connected in series. The positive (+) terminal of the batteries is connected to the 1st leg of the LM7812 regulator integrated. The negative (-) pole of the batteries to the second leg of the Arduino and the GND of the modular driver board are connected to the cable. On the third leg, the Vcc pin of the modular driver board is connected to the Arduino’s Vin pin via a cable.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;b&gt;2 çeşiti var&lt;/b&gt;&lt;/h3&gt;
 
-&lt;p&gt;Gear Transmission System Design
-17 mm inner diameter 22 mm outer diameter 30 mm length of the iron pipe in the upper part of the lathe 20 mm to 6 mm depth of the bearing was made to widen the bearing. 20 mm outer diameter 6 mm core diameter bearing ball is fixed. A two-mm wide and 20-mm long slit was opened on both sides of the pipe. In this way, the rotation movement of the nut is prevented and therefore it moves axially (longitudinally). The 2 mm thick sheet is cut as shown in figure 4 and punched at the midpoint. The hole is made of 6 metric taps with a nut suitable for the bolt. The nut is drilled with a 1.5 mm crochet hook from the point shown in figure 3. The wire is fixed to the nut through the hole. 6 metric 50 mm long allen head bolts were installed in the ball hub, the bolt was inserted through the bearing and secured with 6 metric nuts on the inside to prevent axial movement. The nut that we have made from the sheet metal is tightened to the screw and the nut is provided to move axially. The output shaft of the servo motor is turned into a hexagonal form with a diameter of 5 mm and it is mounted on the head of the bolt, so that the torque of the motor is transferred to the bolt. By shifting the bolt, the gear change is provided by hanging the gear wire with the axial movement of the nut. Thanks to the gas welding on the outer surface of the bolt head, two mutually tailstock was thrown to form a stigma. The switch was mounted in front of the dunes.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Standar 2*16  ekranlı(alpha 3)&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;Servo Motor Blog
-Some modifications have been made to the servo motor to drive the transmission system. In order to rotate the motor 360 degrees, the limiting pin on the power transmission gear in the gear unit was cut with the help of flex. The potentiometer connected to the same gear was also removed. The motor is supplied with 12 volts power and the drive circuit inside the servo motor ￼is removed for a more powerful and faster operation. The output shaft of the servo motor was grinded and assembled into a 5mm hexagonal form to fit into the 6 metric allen head bolt.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;card-img-responsive&quot; width=&quot;50%&quot; src=&quot;/assets/img/a6.png&quot; alt=&quot;vites sistemi&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Figure 1. Servo Motor Gearbox&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;lcd ekranlı 0.96” (alpha 6 )&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;Servo Motor Modification
-The four screws on the back cover of the MG996R servo motor were removed. With the help of the soldering iron, the motor drive was removed from the dc motor and potentiometer. Reducer cover opened. Power transmission gear was removed and the limiting pin on it was cut with the help of flex. The end of the gear was ground to 5mm hexagon shape. The gear unit is reinstalled and the gear unit cover is closed. After soldering the cables to the motor with the help of a soldering iron, the back cover of the servo motor was closed with screws.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;card-img-responsive&quot; width=&quot;50%&quot; src=&quot;/assets/img/a3.jpg&quot; alt=&quot;vites sistemi&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Figure 2. Servo Motor Modification&lt;/p&gt;
+&lt;p&gt;1.si  bizim 3.prototipimiz sağlam ve güzel çalışır ama görüntüsü biraz yanınızda ev telefonu taşımak gibi,&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;4 yada 5 . prototipimiz sağlam temiz çalışıyor ve görüntüsü diğerlerine göre kat kat güzel ve daha küçük :)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Birazcık  görelim &lt;/h2&gt;
+&lt;p&gt;&lt;img class=&quot;card-img-responsive&quot; width=&quot;70%&quot; src=&quot;/assets/img/v1.png&quot; alt=&quot;vites sistemi&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+bu arkadaş servo motor yardımı ile vites telinin kontrol edilmesini sağlar&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;sıfır switchi vitesin 1 olmasını tetikler yani sistemin referans noktasıdır&lt;/li&gt;
+  &lt;li&gt;sayaç ise telin ne kadar çekildiği ya da salındığını sayar&lt;/li&gt;
+  &lt;li&gt;civataya servo motor başı girer.
+&lt;img class=&quot;card-img-responsive&quot; width=&quot;70%&quot; src=&quot;/assets/img/s2.png&quot; alt=&quot;vites sistemi&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Screen Block
-A “16 * 2 LCD” display is used to show the driver shifts, mode changes, speed and current gear status. The GND pin on the display modular board will be connected to the “GND” pin of the arduino, the CC VCC ”pin to the“ 5V ”pin of the arduino, the“ SDA ”pin to the du A5” pin of the arduio and the “SCL” pin to the “A4” pin.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;card-img-responsive&quot; width=&quot;70%&quot; src=&quot;/assets/img/sisr.png&quot; alt=&quot;vites sistemi&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;0.96 inch oled arduino diagram ile ilgili gÃ¶rsel sonucu&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;￼
-bymfd/&lt;/p&gt;
+&lt;p&gt;Buraya kadar vites telini asılacak sistemi tanıdık… Şimdi Servo motora neler yaptık ona bakalım.&lt;/p&gt;
 
-&lt;p&gt;Figure 10 Arduino UNO 16 * 2 LCD display connection diagram&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;card-img-responsive&quot; width=&quot;70%&quot; src=&quot;/assets/img/s1.png&quot; alt=&quot;vites sistemi&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+servonun elektronik tüm elektronik elelmanlarını çıakrtıp onu bir redüktörlü motora dönüştürdük bu bize teli çekmek için yeterli gücü verir ve mg96 serisi motorun açı sorunlarında kurtarır açı demişken 
+&lt;img class=&quot;card-img-responsive&quot; width=&quot;70%&quot; src=&quot;/assets/img/s2.jpg&quot; alt=&quot;vites sistemi&quot; /&gt;
+Servo motordaki açı sınırlayıcısını da çıkartıyoruz ve servonun çıkış milini vites telini aktaracak civataya girecek şekilde yontuyoruz .&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&amp;lt;/hr&amp;gt;&lt;/p&gt;
 
-&lt;p&gt;4 Panasonic / Sanyo CGR18650CG 2200 mAh LI-ion batteries were used to power the motor drive and arduino. One battery provides a rated voltage of 3.6 volts. Batteries are connected to each other in series and 14.4 volt voltage is provided. However, this 14.4 volt voltage is too high for the dc motor of the servo, which can damage the motor. Using the LM7812 regulator integrated voltage, the drive and arduino are powered by reducing the voltage to 12 volts.
-Panasonic / Sanyo CGR18650CG 2200 mAh LI-ion 4 batteries connected in series. The positive (+) terminal of the batteries is connected to the 1st leg of the LM7812 regulator integrated. The negative (-) pole of the batteries to the second leg of the Arduino and the GND of the modular driver board are connected to the cable. On the third leg, the Vcc pin of the modular driver board is connected to the Arduino’s Vin pin via a cable.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;card-img-responsive&quot; width=&quot;70%&quot; src=&quot;/assets/img/g1.jpg&quot; alt=&quot;vites sistemi&quot; /&gt;&lt;br /&gt;
+şekilde görüldüğü gibi elemanları bir araya getiriyoruz
+kırmızı şeyin orada da rotary encoder ‘ımız zincire bağlı bağımsız bir dişlide hareket ediyor
+bu da bize pedalın hangi yönde döndüğünü anlamamızı sağlıyor&lt;/p&gt;
 
-&lt;p&gt;Pedal Direction Detection
-In gear bikes, the pedal must be rotating clockwise during gear shifting. If you try to change gears while the pedal is not rotating, the transmitter, chain, transmission system, servo motor will be damaged greatly. To avoid this situation, it is checked that the pedal rotates clockwise when changing gears. The roller is connected to the front of the lower guide roller of the transmitter. A rotary encoder was installed in the center of this pulley to allow the microcontroller to detect the direction of rotation.
-The direction of the pedal direction was tightened with two bolts of ball bearing bearing 8 mm inner diameter of 22 mm outer diameter into the 22 mm inner diameter clamp system. The 8 metric screws attached to the transfer roller were fitted to the center of the ball bearing and tightened one end with 8 metric grooves and the outside 10 mm long with 15 mm tubing. Rotary encoder is installed on the outside of the screw. The connection of the rotary encoder is made as in figure 1.&lt;/p&gt;
+&lt;p&gt;en son sistemin elektronik kısımlarını da bir araya getirelimmm
+&lt;img class=&quot;card-img-responsive&quot; width=&quot;70%&quot; src=&quot;/assets/img/sisson.png&quot; alt=&quot;vites sistemi&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Codes are avaible github page&lt;/p&gt;</content><author><name>bymfd</name></author><category term="tech" /><summary type="html">Project Details</summary></entry></feed>
+&lt;p&gt;kodlar ve açıklamaları elbette burda (ekler içinde teknik çizimler mevcut ):
+&lt;a href=&quot;https://github.com/bymfd/velesbit&quot;&gt;burada github’da&lt;/a&gt;&lt;/p&gt;</content><author><name>bymfd</name></author><category term="tech" /><summary type="html">Bisiklet, ulaşım, eğlence, spor, hobi ve taşımacılık gibi alanlarda kullanılmaktadır. Günümüzde bisikletinde en yaygın olarak kullanılan vites kadronun dışında, ayrı bir birim olarak yer alan ön ve arka aktarıcılara dayanan sistemdir Gidilen yol ile uygulanan güç arasındaki ilişkiyi kontrol eder. Vites sistemi pedala bağlı ayna kol yani ön vites dişli takımından ve arka tekerleğe bağlı arka vites dişli takımından oluşur. Gidon çevresinde bulunan sağ vites kontrol kolu arka vitesi, sol vites kontrol kolu ise ön vitesi kontrol eder. Sürücüyü en az yoran, konforlu ve en çok performans sağlamak ayrıca insanlara bisiklet kullanımını daha çok sevdirmek ve doğa kirliliğini önlemek için otomatik vites sistemini uygun bir çözüm olarak görülmüştür</summary></entry></feed>

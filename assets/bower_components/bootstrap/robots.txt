@@ -3,4 +3,4 @@
 # Allow crawling of all content
 User-agent: *
 Disallow:
-Sitemap: bymfd.github.io/sitemap.xml
+Sitemap: /sitemap.xml
