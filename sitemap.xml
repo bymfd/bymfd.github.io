@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>bymfd.github.io/tech/2019/06/06/otomatik-vitesli-bisiklet/</loc>
-<lastmod>2019-06-06T00:00:00+03:00</lastmod>
+<loc>bymfd.github.io/tech/2020/04/09/otomatik-vitesli-bisiklet/</loc>
+<lastmod>2020-04-09T00:00:00+03:00</lastmod>
 </url>
 <url>
 <loc>bymfd.github.io/404/</loc>
@@ -25,21 +25,33 @@
 <url>
 <loc>bymfd.github.io/contact/</loc>
 </url>
-
+<url>
+<loc>bymfd.github.io/blog/categories/guides</loc>
+</url>
+<url>
+<loc>bymfd.github.io/gallery/</loc>
+</url>
 <url>
 <loc>bymfd.github.io/blog/</loc>
 </url>
 <url>
 <loc>bymfd.github.io/</loc>
 </url>
-
+<url>
+<loc>bymfd.github.io/get-started/</loc>
+</url>
+<url>
+<loc>bymfd.github.io/gallery/mountains.html</loc>
+</url>
 <url>
 <loc>bymfd.github.io/blog/tags/otomatik</loc>
 </url>
 <url>
 <loc>bymfd.github.io/search</loc>
 </url>
-
+<url>
+<loc>bymfd.github.io/styleguide/</loc>
+</url>
 <url>
 <loc>bymfd.github.io/blog/categories/tech</loc>
 </url>
