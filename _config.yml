@@ -1,8 +1,8 @@
 title: bymfd
 subtitle: Kendi halinde developer
 description: Projelerim ve kendim hakkımda bilgiler verdiğim basit ama etkili web sitem
-url: ''
-baseurl: ''
+url: 'bymfd.github.io'
+baseurl: 'bymfd.github.io'
 urls:
   - text: Hakkımda
     url: /about
