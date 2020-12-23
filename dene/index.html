@@ -1,35 +1,36 @@
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/webrtc-adapter/3.3.3/adapter.min.js"></script>
-    <script type="text/javascript" src="js/instascan.min.js"></script>
-    <script type="text/javascript" src="js/quagga.min.js"></script>
-    <script type="text/javascript" src="js/qr_barcode_scanner.js"></script>
-    <script type="text/javascript" src="js/1d_barcode_scanner.js"></script>
-    <script type="text/javascript" src="js/barcode_controls.js"></script>
-  </head>
-  <body>
-    <h1>Barcode Scanner</h1>
-    <p>Place the barcode in front of the camera so it's completely in view.</p>
-    
-    <select id="barcode-selector">
-      <option value="">Select a type of barcode to scan</option>
-      <option value="1d">Scan 1D Barcode</option>
-      <option value="qr">Scan QR Barcode</option>
-    </select>
-    <br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+</head>
+<body>
 
 
-    <!-- For QR barcodes -->
-    <video id="barcode-capture"></video>
-    <h3 id="barcode-result"></h3>
-    
-    <!-- For 1D barcodes -->
-    <div id="quagga"></div>
-    <div id="result_strip">
-      <ul class="thumbnails"></ul>
-    </div>
-    
-  </body>
+
+
+<script>
+    var socket = io('http://194.36.84.177:5000');
+
+
+
+    socket.on('posts', function (data) {
+        console.log(data);
+    });
+
+    // // eğer client tarafından socket'in posts event'ına daha göndermek isteseydik yine emit'i kullanacaktık
+    // socket.emit('test', {
+    //     'id': 5,
+    //     'title': 'Test',
+    //     'content': 'bu bir tesstir',
+    //     'date': '2019-08-11 12:00:00'
+    // });
+
+
+
+
+</script>
+
+</body>
 </html>
