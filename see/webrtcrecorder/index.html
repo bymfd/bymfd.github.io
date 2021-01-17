@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ekran Kaydedici</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/comlinkjs@3.0.2/umd/comlink.js"></script>
+    <script src="script.js" async></script>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css">
+  </head>  
+  <body>
+
+    <p id="warning">
+       <a href="chrome://flags/#enable-experimental-web-platform-features">Kullanabilmek için Etkinleştirmelisiniz</a>
+    </p>
+    <video id="videoElement" autoplay muted></video>
+    <br />
+    <button id="captureBtn">Kaydedilecek Alan Seç</button>
+    <button id="startBtn" disabled>Kaydı Başlat</button>
+    <button id="stopBtn" disabled>Kaydı Durdur</button>
+    <br>
+    <input type="checkbox" id="audioToggle" />
+    <label for="audioToggle">Sistem Seslerini Dahil Et</label>
+    <input type="checkbox" id="micAudioToggle" />
+    <label for="micAudioToggle">Mikrofon Sesi Dahil Et</label>
+    <a id="download" href="#" style="display: none;">Kaydı İndirmek İçin Tıklayın</a>
+  </body>
+</html>
