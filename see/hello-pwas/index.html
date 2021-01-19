@@ -22,7 +22,7 @@
     
 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
 <script>
-    const socket = io('https://194.36.86.144:443',{secure: true});
+    const socket = io('https://194.36.86.144:443',{secure: true, transports: [ 'websocket' ]});
     function emitle(id,mesaj) {
         var event = "new";
         var data = {"id": id, "mesaj": mesaj}
