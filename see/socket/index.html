@@ -1,22 +1,27 @@
-<!doctype html>
-<html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.0/socket.io.js" integrity="sha512-+l9L4lMTFNy3dEglQpprf7jQBhQsQ3/WvOnjaN/+/L4i0jOstgScV0q2TjfvRF4V+ZePMDuZYIQtg5T4MKr+MQ==" crossorigin="anonymous"></script>
+<script>
+    const socket = io('https://194.36.86.144:443',{secure:true, transports: [ 'websocket' ]});
+    function emitle(id,mesaj) {
+        var event = "new";
+        var data = {"id": id, "mesaj": mesaj}
+        socket.emit(event, data, function (res) {
+        });
+    }
 
-  <head>
+    socket.on('new1', function(msg){
+        notice(msg);
+    });
 
-  </head>
-  <body>
-    <h1>I am alive!!</h1>
+    Notification.requestPermission(function(permission) {});
 
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.0/socket.io.js" integrity="sha512-+l9L4lMTFNy3dEglQpprf7jQBhQsQ3/WvOnjaN/+/L4i0jOstgScV0q2TjfvRF4V+ZePMDuZYIQtg5T4MKr+MQ==" crossorigin="anonymous"></script>
+    function notice(msg) {
+        let _notification = new Notification(`Armiya Teknoloji`,{
+            body:`${msg.mesaj}`,
+            icon:'https://armiya.com/wp-content/uploads/2019/11/logo_dark.png'
 
-    <script>
-      var URL_SERVER = 'https://194.36.86.144:443'{secure:true, transports: [ 'websocket' ]};
-      var socket = io.connect(URL_SERVER);
+        });
+    }
 
-      socket.on('new1', function(data) {
-        alert(data);
-      });
-    </script>
-  </body>
+    emitle(1,"sdfghjk");
+</script>
 
-</html>
