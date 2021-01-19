@@ -1,4 +1,4 @@
-!doctype html>
+<!doctype html>
 <html>
 
   <head>
@@ -10,7 +10,7 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.0/socket.io.js" integrity="sha512-+l9L4lMTFNy3dEglQpprf7jQBhQsQ3/WvOnjaN/+/L4i0jOstgScV0q2TjfvRF4V+ZePMDuZYIQtg5T4MKr+MQ==" crossorigin="anonymous"></script>
 
     <script>
-      var URL_SERVER = 'https://194.36.86.144:443';
+      var URL_SERVER = 'https://194.36.86.144:443'{secure:true, transports: [ 'websocket' ]};
       var socket = io.connect(URL_SERVER);
 
       socket.on('new1', function(data) {
