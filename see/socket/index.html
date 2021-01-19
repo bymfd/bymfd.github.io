@@ -1,0 +1,22 @@
+!doctype html>
+<html>
+
+  <head>
+
+  </head>
+  <body>
+    <h1>I am alive!!</h1>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.0/socket.io.js" integrity="sha512-+l9L4lMTFNy3dEglQpprf7jQBhQsQ3/WvOnjaN/+/L4i0jOstgScV0q2TjfvRF4V+ZePMDuZYIQtg5T4MKr+MQ==" crossorigin="anonymous"></script>
+
+    <script>
+      var URL_SERVER = 'https://194.36.86.144:443';
+      var socket = io.connect(URL_SERVER);
+
+      socket.on('new1', function(data) {
+        alert(data);
+      });
+    </script>
+  </body>
+
+</html>
