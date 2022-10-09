@@ -96,7 +96,9 @@
   "tag" : "godot",
   "posts" : [
       
-      "./godot-oyunu-spaceroller.html"
+      "./godot-oyunu-spaceroller.html",
+      
+      "./godot-oyunu-2dplat.html"
       
     ]
   } ,
@@ -208,7 +210,9 @@
   "tag" : "oyun",
   "posts" : [
       
-      "./godot-oyunu-spaceroller.html"
+      "./godot-oyunu-spaceroller.html",
+      
+      "./godot-oyunu-2dplat.html"
       
     ]
   } ,
