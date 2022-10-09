@@ -1,1 +1,135 @@
-<feed xmlns="http://www.w3.org/2005/Atom"> <id>https://bymfd.github.io</id><title>bymfd</title><subtitle>Mevlüt Furkan Demirin kafasına göre takıldığı kendine ve insanlığa notlar bıraktığı o yer burası.</subtitle> <updated>2022-10-09T19:33:09+03:00</updated> <author> <name>Mevlüt Furkan Demir</name> <uri>https://bymfd.github.io</uri> </author><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bymfd.github.io" rel="alternate" type="text/html" /> <generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator> <rights> © 2022 Mevlüt Furkan Demir </rights> <icon>https://bymfd.github.io/assets/img/favicons/favicon.ico</icon> <logo>https://bymfd.github.io/assets/img/favicons/favicon-96x96.png</logo> <entry><title>acme.sh Error in deploying certificate - cannot retrieve sitelist hatası</title><link href="https://bymfd.github.io/posts/acmesh-error-in-deploying-certificate-cannot-retrieve-sitelist-hatasi/" rel="alternate" type="text/html" title="acme.sh Error in deploying certificate - cannot retrieve sitelist hatası" /><published>2022-10-09T00:00:00+03:00</published> <updated>2022-10-09T00:00:00+03:00</updated> <id>https://bymfd.github.io/posts/acmesh-error-in-deploying-certificate-cannot-retrieve-sitelist-hatasi/</id> <content src="https://bymfd.github.io/posts/acmesh-error-in-deploying-certificate-cannot-retrieve-sitelist-hatasi/" /> <author> <name>Mevlüt Furkan Demir</name> </author> <category term="kendim kullanırım" /> <summary> Acme.sh Error in deploying certificate - cannot retrieve sitelist cpanel _uapi deploy hook u ile oluşturduğumuz sertifikayı deploy etmeye çalışırken bu hatayı veriyor ve tabikide deploy edemediğimiz için web sitemiz ssl sertifikasız kalıyor. Root kullanıcısı olduğumuz için cpanel hangi kullanıcı için sitelist döndecek değil mi? ayrıca bu hatayı hem zerossl hemde lets. için aldım ben. Bu hatay... </summary> </entry> <entry><title>Online ekran ve ses kaydedici</title><link href="https://bymfd.github.io/posts/online-ekran-ve-ses-kaydedici/" rel="alternate" type="text/html" title="Online ekran ve ses kaydedici" /><published>2021-01-17T00:00:00+03:00</published> <updated>2021-01-17T00:00:00+03:00</updated> <id>https://bymfd.github.io/posts/online-ekran-ve-ses-kaydedici/</id> <content src="https://bymfd.github.io/posts/online-ekran-ve-ses-kaydedici/" /> <author> <name>Mevlüt Furkan Demir</name> </author> <category term="kendim kullanırım" /> <summary> Birgün mutlaka işime lazım olur ve kullanırım diye hazırda tuttuğum online masaüstü ekran ve ses kaydedici; basit ve webrtc kullanan bir html js scripti paylaşılacak alanı seçiyorsun otomatik kayda başlıyor, bitince de sana bir indirme linki sunuyor tek problem çıkartabilecek tarafı mp4 uzantılı değil webm uzantılı bir dosya vermesi ayrıca mobil tarayıcılarda desteklenmemesi. çalışan hali: ... </summary> </entry> <entry><title>godot oyunu spaceroller</title><link href="https://bymfd.github.io/posts/godot-oyunu-spaceroller/" rel="alternate" type="text/html" title="godot oyunu spaceroller" /><published>2021-01-17T00:00:00+03:00</published> <updated>2021-01-17T00:00:00+03:00</updated> <id>https://bymfd.github.io/posts/godot-oyunu-spaceroller/</id> <content src="https://bymfd.github.io/posts/godot-oyunu-spaceroller/" /> <author> <name>Mevlüt Furkan Demir</name> </author> <category term="oyun" /> <summary> Nedir? 2dplat ‘tan sonra biraz daha oyun yapmayla uğraşmak istedim godotun hızlı geliştirme ortamı sunması yaparken eğlenmek yeni şeyler öğrenmek beni iyice kendine çekti ve bu seferde 3D yapacağım bide bunu deneyeceğim böylelikle ortaya çıkmış öncekinden bi hayli güzel oyun. Hikayesi var Evet bir hikayesi var ama bu kez aklıma gelme şekli biraz farklı aslında alışık olduğumuz bir aydınlanma... </summary> </entry> <entry><title>godot oyunu 2dplat</title><link href="https://bymfd.github.io/posts/godot-oyunu-2dplat/" rel="alternate" type="text/html" title="godot oyunu 2dplat" /><published>2021-01-17T00:00:00+03:00</published> <updated>2021-01-17T00:00:00+03:00</updated> <id>https://bymfd.github.io/posts/godot-oyunu-2dplat/</id> <content src="https://bymfd.github.io/posts/godot-oyunu-2dplat/" /> <author> <name>Mevlüt Furkan Demir</name> </author> <category term="oyun" /> <summary> Bir godot oyunu 2dplat Nedir? Bu tamamen kendimi denemek ve birazda eğlenmek için yaptığım sonrasında arkadaşalarımın hadi bunu paylaş insanlarda görsün dediği ve şuan için 100 kişinin göz gezdirdiği saçma sapan bir 2 boyutlu platform oyunu.Pek başarılı olduğu söylenemez ancakk genelde geri dönüş çok zor yaaa ama çok eğlenceli olacakmış gibi şeklinde oluyor. bir göz atmak isterseniz şuan için... </summary> </entry> <entry><title>Otomatik Vitesli Bisiklet</title><link href="https://bymfd.github.io/posts/otomatik-vitesli-bisiklet/" rel="alternate" type="text/html" title="Otomatik Vitesli Bisiklet" /><published>2019-01-01T00:00:00+03:00</published> <updated>2019-01-01T00:00:00+03:00</updated> <id>https://bymfd.github.io/posts/otomatik-vitesli-bisiklet/</id> <content src="https://bymfd.github.io/posts/otomatik-vitesli-bisiklet/" /> <author> <name>Mevlüt Furkan Demir</name> </author> <category term="proje" /> <summary> Otomatik vitesli bisiklet Bisiklet, ulaşım, eğlence, spor, hobi ve taşımacılık gibi alanlarda kullanılmaktadır. Günümüzde bisikletinde en yaygın olarak kullanılan vites kadronun dışında, ayrı bir birim olarak yer alan ön ve arka aktarıcılara dayanan sistemdir Gidilen yol ile uygulanan güç arasındaki ilişkiyi kontrol eder. Vites sistemi pedala bağlı ayna kol yani ön vites dişli takımından ve ar... </summary> </entry> </feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bymfd.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bymfd.github.io/" rel="alternate" type="text/html" /><updated>2022-10-09T20:02:43+03:00</updated><id>https://bymfd.github.io/feed.xml</id><title type="html">MFD Blog</title><subtitle>Artificial Intelligence trends and concepts made easy.</subtitle><author><name>Mevlüt Furkan Demir</name></author><entry><title type="html">acme.sh Error in deploying certificate - cannot retrieve sitelist hatası</title><link href="https://bymfd.github.io/acmesh-error-in-deploying-certificate-cannot-retrieve-sitelist-hatasi.html" rel="alternate" type="text/html" title="acme.sh Error in deploying certificate - cannot retrieve sitelist hatası" /><published>2022-10-09T00:00:00+03:00</published><updated>2022-10-09T00:00:00+03:00</updated><id>https://bymfd.github.io/acmesh-error-in-deploying-certificate-cannot-retrieve-sitelist-hatasi</id><content type="html" xml:base="https://bymfd.github.io/acmesh-error-in-deploying-certificate-cannot-retrieve-sitelist-hatasi.html"><![CDATA[<p>Acme.sh Error in deploying certificate - cannot retrieve sitelist cpanel _uapi deploy hook u ile oluşturduğumuz sertifikayı deploy etmeye çalışırken 
+bu hatayı veriyor ve tabikide deploy edemediğimiz için web sitemiz ssl sertifikasız kalıyor.
+Root kullanıcısı olduğumuz için cpanel hangi kullanıcı için sitelist döndecek değil mi? 
+ayrıca bu hatayı hem zerossl hemde lets. için aldım ben.
+Bu hatayı cron ile sertifika yenilerken de verebilir bunun için çözümümüz basit ancak hatanın nedenine bir göz atalım:</p>
+
+<p><strong>deploy/cpanel_uapi.sh</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    _response=$(uapi DomainInfo list_domains)
+
+</code></pre></div></div>
+
+<p>Satırında hiçbir ekstra parametre yok ancak <a href="https://api.docs.cpanel.net/openapi/cpanel/operation/list_domains/">uapi dökümantasyonunda</a>  bu komutta  kesinlikle username olmasını istiyooor :).</p>
+
+<p>o yüzden <strong>deploy/cpanel_uapi.sh</strong> dosyasına küçük bir ekleme yaparak bu hatadan acme.sh bir güncellmee çıkartana dek kurtulabilir ve sitemizi ssllemeye devam edebiliriz.</p>
+
+<p>yukarıdaki satırı değiştirmemiz gereken kod parçası ise tam olarak şu:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    if [ -n "$_uapi_user" ]; then
+      _response=$(uapi --user="$_uapi_user" DomainInfo list_domains)
+    else
+       _response=$(uapi DomainInfo list_domains)
+    fi
+</code></pre></div></div>
+
+<p>burada ise eğer CPANEL_DEPLOY_USER değişkeni tanımlandıysa bu komutu –user parametresi ile gönder değilse zaten bir kullanıcı ile oturum açmışız ve buna ihtiyacımız yok demektir.</p>
+
+<p>Bu şekilde hatayı çözdükten sonra yavaşça koltuğumuza yaslanıp sertifikalarımızın doğru bir şekilde deploy edildiğini izlerken bir sorun olursa acme.sh issue kısmına yazmayı ve bana da birader hatalı bu iş gel sen bundan vazgeç demeyi unutmayın esenle kalın.</p>]]></content><author><name>Mevlüt Furkan Demir</name></author><category term="kendim kullanırım" /><category term="online" /><category term="sunucu" /><category term="cpanel" /><category term="sh" /><category term="hata" /><category term="acme.sh" /><category term="ssl" /><category term="zerossl" /><category term="letsenycrypt" /><category term="curl" /><category term="deploy-hook" /><category term="deploy" /><category term="uapi" /><summary type="html"><![CDATA[Acme.sh Error in deploying certificate - cannot retrieve sitelist cpanel _uapi deploy hook u ile oluşturduğumuz sertifikayı deploy etmeye çalışırken bu hatayı veriyor ve tabikide deploy edemediğimiz için web sitemiz ssl sertifikasız kalıyor. Root kullanıcısı olduğumuz için cpanel hangi kullanıcı için sitelist döndecek değil mi? ayrıca bu hatayı hem zerossl hemde lets. için aldım ben. Bu hatayı cron ile sertifika yenilerken de verebilir bunun için çözümümüz basit ancak hatanın nedenine bir göz atalım:]]></summary></entry><entry><title type="html">godot oyunu 2dplat</title><link href="https://bymfd.github.io/godot-oyunu-2dplat.html" rel="alternate" type="text/html" title="godot oyunu 2dplat" /><published>2021-01-17T00:00:00+03:00</published><updated>2021-01-17T00:00:00+03:00</updated><id>https://bymfd.github.io/godot-oyunu-2dplat</id><content type="html" xml:base="https://bymfd.github.io/godot-oyunu-2dplat.html"><![CDATA[<p>Bir godot oyunu 2dplat</p>
+
+<p>Nedir?</p>
+
+<p>Bu tamamen kendimi denemek ve birazda eğlenmek için yaptığım sonrasında arkadaşalarımın hadi bunu paylaş insanlarda görsün dediği ve şuan için 100 kişinin göz gezdirdiği saçma sapan bir 2 boyutlu platform oyunu.Pek başarılı olduğu söylenemez ancakk genelde geri dönüş çok zor yaaa ama çok eğlenceli olacakmış gibi şeklinde oluyor. bir göz atmak isterseniz şuan için app gallery ve amazon store da 2dplat ismiyle bulunuyor.
+Hikayesi var</p>
+
+<p>Evet bir hikayesi var insan beyni ve bilgisayarlar arasında nöral bağlantıyı evinde gerçekleştirebilecek kadar becerikli bir adamın bu bağlantıyı test etmek için pek de becerikli olmadığı bilgisayar oyunuyla test etmek istemesi ve oyundaki buglar yüzünden burdan kurtulamaması olarak başlıyor; Devam ettirmeyi istiyorum ama şuan için üzerinde çalışmaya devam edeceğim.
+spoiler</p>
+
+<p>biri de ecivici vokke :D
+Kaynaklar</p>
+
+<p>oyuna dair herşey burada</p>
+
+<p>İndirmek isterseniz diye market linkleri de burda</p>
+
+<p>burada burada github’da</p>]]></content><author><name>Mevlüt Furkan Demir</name></author><category term="oyun" /><summary type="html"><![CDATA[Bir godot oyunu 2dplat]]></summary></entry><entry><title type="html">godot oyunu spaceroller</title><link href="https://bymfd.github.io/godot-oyunu-spaceroller.html" rel="alternate" type="text/html" title="godot oyunu spaceroller" /><published>2021-01-17T00:00:00+03:00</published><updated>2021-01-17T00:00:00+03:00</updated><id>https://bymfd.github.io/godot-oyunu-spaceroller</id><content type="html" xml:base="https://bymfd.github.io/godot-oyunu-spaceroller.html"><![CDATA[<p>Nedir?</p>
+
+<p>2dplat</p>
+
+<p>‘tan sonra biraz daha oyun yapmayla uğraşmak istedim godotun hızlı geliştirme ortamı sunması yaparken eğlenmek yeni şeyler öğrenmek beni iyice kendine çekti ve bu seferde 3D yapacağım bide bunu deneyeceğim böylelikle ortaya çıkmış öncekinden bi hayli güzel oyun.
+Hikayesi var</p>
+
+<p>Evet bir hikayesi var ama bu kez aklıma gelme şekli biraz farklı aslında alışık olduğumuz bir aydınlanma :) şöyle oldu:
+totalde 7 ye yakın konseptde ürün çıkarmayı denedim bir şekilde iş o 3 boyutlu nesnelerin kendi tasarımım olması gerekiyordu içime sinmedi kafayı yiyeceğim günlerce o koltukta oturdum blender çalıştım denemeler yaptım oyun için güzel görünen 3boyutlu tasarım yapmayı beceremedim vs vs derken
+herzaman aklımıza mükemmel fikirerin geldiği o yerde tuvalet kağıdı takarken elimden kaydı ve yuvarlanmaya başladı şöyle bir durdum baktım evet tuvalet kağıdı yuvarlama oyunları var ama aklıma gelen gibi yok
+hemen yazmaya başladım ortalama 2 saat sonra aklımdakine yakın bir taslak çıkmıştı arkadaşlarıma gösterdim feedbackler doğrultusunda bugünkü halini aldı başta çıkan ile sonucun hiç alakası olmasada bir ürünü kendim adına başarılı bir şekilde kullanıcıya sundum.</p>
+
+<p>app galery üzerinden indirip deneyebilirsiniz,sağlıcakla :)
+Kaynaklar</p>
+
+<p>oyuna dair herşey burada</p>
+
+<p>burada burada github’da</p>]]></content><author><name>Mevlüt Furkan Demir</name></author><category term="oyun" /><category term="oyun" /><category term="godot" /><category term="3d" /><category term="space" /><category term="roller" /><category term="sonsuz" /><category term="stack" /><summary type="html"><![CDATA[Nedir?]]></summary></entry><entry><title type="html">Online ekran ve ses kaydedici</title><link href="https://bymfd.github.io/online-ekran-ve-ses-kaydedici.html" rel="alternate" type="text/html" title="Online ekran ve ses kaydedici" /><published>2021-01-17T00:00:00+03:00</published><updated>2021-01-17T00:00:00+03:00</updated><id>https://bymfd.github.io/online-ekran-ve-ses-kaydedici</id><content type="html" xml:base="https://bymfd.github.io/online-ekran-ve-ses-kaydedici.html"><![CDATA[<p>Birgün mutlaka işime lazım olur ve kullanırım diye hazırda tuttuğum</p>
+
+<p>online masaüstü ekran ve ses kaydedici;
+basit ve webrtc kullanan bir html js scripti paylaşılacak alanı seçiyorsun otomatik kayda başlıyor, bitince de sana bir indirme linki sunuyor 
+tek problem çıkartabilecek tarafı mp4 uzantılı değil webm uzantılı  bir dosya vermesi ayrıca mobil tarayıcılarda desteklenmemesi.</p>
+
+<p>çalışan hali:
+<a href="http://bymfd.github.io/see/webrtcrecorder/">buraya tıklayarak ulaşabilirsin </a></p>]]></content><author><name>Mevlüt Furkan Demir</name></author><category term="kendim kullanırım" /><category term="online" /><category term="ekran" /><category term="ses" /><category term="kaydedici" /><category term="record" /><category term="share" /><category term="screen" /><category term="indir" /><category term="masaüstü" /><category term="webrtc" /><category term="webm" /><summary type="html"><![CDATA[Birgün mutlaka işime lazım olur ve kullanırım diye hazırda tuttuğum]]></summary></entry><entry><title type="html">Otomatik Vitesli Bisiklet</title><link href="https://bymfd.github.io/otomatik-vitesli-bisiklet.html" rel="alternate" type="text/html" title="Otomatik Vitesli Bisiklet" /><published>2019-01-01T00:00:00+03:00</published><updated>2019-01-01T00:00:00+03:00</updated><id>https://bymfd.github.io/otomatik-vitesli-bisiklet</id><content type="html" xml:base="https://bymfd.github.io/otomatik-vitesli-bisiklet.html"><![CDATA[<p>Otomatik vitesli bisiklet</p>
+
+<p>Bisiklet, ulaşım, eğlence, spor, hobi ve taşımacılık gibi alanlarda kullanılmaktadır. Günümüzde bisikletinde en yaygın olarak kullanılan vites kadronun dışında, ayrı bir birim olarak yer alan ön ve arka aktarıcılara dayanan sistemdir Gidilen yol ile uygulanan güç arasındaki ilişkiyi kontrol eder. Vites sistemi pedala bağlı ayna kol yani ön vites dişli takımından ve arka tekerleğe bağlı arka vites dişli takımından oluşur. Gidon çevresinde bulunan sağ vites kontrol kolu arka vitesi, sol vites kontrol kolu ise ön vitesi kontrol eder. Sürücüyü en az yoran, konforlu ve en çok performans sağlamak ayrıca insanlara bisiklet kullanımını daha çok sevdirmek ve doğa kirliliğini önlemek için otomatik vites sistemini uygun bir çözüm olarak görülmüştür</p>
+
+<p>diyerek başladık söze ve Tübitak a sunduk, projemiz 2 kez konya bölge birincisi oldu bizde en iyisi özgürleştirmek deyip saldık buraya.</p>
+
+<p>geliştirdiğimiz sistem ile otomatik tüm rublle dişlili bisikletler , göbekten vitesli bisikletler için kullanabilir olacaksınız.
+İhtiyacınız olan şeyler</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>arduino (pro mini yada uno ile test ettik)
+bolca kablo,havya seti
+bir motor sürcüsü
+bir servo motor (mg996 ile yaptık)
+rotary encoder
+ekran (2*16 veya oled 0.96” için yaptık )
+hayal gücü
+matkap,tornavida,vidalar ,flex vs vs bisiklete monte etmek için gereken herşey
+el becerisi ve azim
+birsürü boru (boyutları verdim biz metal kullandık varsa 3d printer müthiş olur )
+</code></pre></div></div>
+
+<p>2 çeşiti var</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Standar 2*16 ekranlı(alpha 3)
+</code></pre></div></div>
+
+<p>vites sistemi</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>lcd ekranlı 0.96” (alpha 6 )
+</code></pre></div></div>
+
+<p>vites sistemi</p>
+
+<p>1.si bizim 3.prototipimiz sağlam ve güzel çalışır ama görüntüsü biraz yanınızda ev telefonu taşımak gibi,</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>4 yada 5 . prototipimiz sağlam temiz çalışıyor ve görüntüsü diğerlerine göre kat kat güzel ve daha küçük :)
+</code></pre></div></div>
+
+<p>Birazcık görelim</p>
+
+<p>vites sistemi</p>
+
+<p>bu arkadaş servo motor yardımı ile vites telinin kontrol edilmesini sağlar</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sıfır switchi vitesin 1 olmasını tetikler yani sistemin referans noktasıdır
+sayaç ise telin ne kadar çekildiği ya da salındığını sayar
+civataya servo motor başı girer. vites sistemi
+</code></pre></div></div>
+
+<p>vites sistemi</p>
+
+<p>Buraya kadar vites telini asılacak sistemi tanıdık… Şimdi Servo motora neler yaptık ona bakalım.</p>
+
+<p>vites sistemi</p>
+
+<p>servonun elektronik tüm elektronik elelmanlarını çıakrtıp onu bir redüktörlü motora dönüştürdük bu bize teli çekmek için yeterli gücü verir ve mg96 serisi motorun açı sorunlarında kurtarır açı demişken vites sistemi Servo motordaki açı sınırlayıcısını da çıkartıyoruz ve servonun çıkış milini vites telini aktaracak civataya girecek şekilde yontuyoruz .</p>
+
+<p>&lt;/hr&gt;</p>
+
+<p>vites sistemi
+şekilde görüldüğü gibi elemanları bir araya getiriyoruz kırmızı şeyin orada da rotary encoder ‘ımız zincire bağlı bağımsız bir dişlide hareket ediyor bu da bize pedalın hangi yönde döndüğünü anlamamızı sağlıyor</p>
+
+<p>en son sistemin elektronik kısımlarını da bir araya getirelimmm vites sistemi</p>
+
+<p>kodlar ve açıklamaları elbette burda (ekler içinde teknik çizimler mevcut ):</p>
+
+<p>burada github’da</p>]]></content><author><name>Mevlüt Furkan Demir</name></author><category term="proje" /><category term="otomatik" /><category term="vitesli" /><category term="bisiklet" /><category term="sistemi" /><category term="arduino" /><category term="nano" /><category term="lcd" /><category term="hız" /><summary type="html"><![CDATA[Otomatik vitesli bisiklet]]></summary></entry></feed>

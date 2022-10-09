@@ -1,0 +1,53 @@
+[
+  
+    {
+      "title"       : "acme.sh Error in deploying certificate - cannot retrieve sitelist hatası",
+      "category"    : "kendim kullanırım",
+      "tags"        : "online, sunucu, cpanel, sh, hata, acme.sh, ssl, zerossl, letsenycrypt, curl, deploy-hook, deploy, uapi",
+      "url"         : "./acmesh-error-in-deploying-certificate-cannot-retrieve-sitelist-hatasi.html",
+      "date"        : "2022-10-09 00:00:00 +0300",
+      "description" : "",
+      "content"     : "Acme.sh Error in deploying certificate - cannot retrieve sitelist cpanel _uapi deploy hook u ile oluşturduğumuz sertifikayı deploy etmeye çalışırken bu hatayı veriyor ve tabikide deploy edemediğimiz için web sitemiz ssl sertifikasız kalıyor.Root kullanıcısı olduğumuz için cpanel hangi kullanıcı için sitelist döndecek değil mi? ayrıca bu hatayı hem zerossl hemde lets. için aldım ben.Bu hatayı cron ile sertifika yenilerken de verebilir bunun için çözümümüz basit ancak hatanın nedenine bir göz atalım:deploy/cpanel_uapi.sh _response=$(uapi DomainInfo list_domains)Satırında hiçbir ekstra parametre yok ancak uapi dökümantasyonunda bu komutta kesinlikle username olmasını istiyooor :).o yüzden deploy/cpanel_uapi.sh dosyasına küçük bir ekleme yaparak bu hatadan acme.sh bir güncellmee çıkartana dek kurtulabilir ve sitemizi ssllemeye devam edebiliriz.yukarıdaki satırı değiştirmemiz gereken kod parçası ise tam olarak şu: if [ -n \"$_uapi_user\" ]; then _response=$(uapi --user=\"$_uapi_user\" DomainInfo list_domains) else _response=$(uapi DomainInfo list_domains) fiburada ise eğer CPANEL_DEPLOY_USER değişkeni tanımlandıysa bu komutu –user parametresi ile gönder değilse zaten bir kullanıcı ile oturum açmışız ve buna ihtiyacımız yok demektir.Bu şekilde hatayı çözdükten sonra yavaşça koltuğumuza yaslanıp sertifikalarımızın doğru bir şekilde deploy edildiğini izlerken bir sorun olursa acme.sh issue kısmına yazmayı ve bana da birader hatalı bu iş gel sen bundan vazgeç demeyi unutmayın esenle kalın."
+    } ,
+  
+    {
+      "title"       : "Online ekran ve ses kaydedici",
+      "category"    : "kendim kullanırım",
+      "tags"        : "online, ekran, ses, kaydedici, record, share, screen, indir, masaüstü, webrtc, webm",
+      "url"         : "./online-ekran-ve-ses-kaydedici.html",
+      "date"        : "2021-01-17 00:00:00 +0300",
+      "description" : "",
+      "content"     : "Birgün mutlaka işime lazım olur ve kullanırım diye hazırda tuttuğumonline masaüstü ekran ve ses kaydedici;basit ve webrtc kullanan bir html js scripti paylaşılacak alanı seçiyorsun otomatik kayda başlıyor, bitince de sana bir indirme linki sunuyor tek problem çıkartabilecek tarafı mp4 uzantılı değil webm uzantılı bir dosya vermesi ayrıca mobil tarayıcılarda desteklenmemesi.çalışan hali:buraya tıklayarak ulaşabilirsin"
+    } ,
+  
+    {
+      "title"       : "godot oyunu spaceroller",
+      "category"    : "oyun",
+      "tags"        : "oyun, godot, 3d, space, roller, sonsuz, stack",
+      "url"         : "./godot-oyunu-spaceroller.html",
+      "date"        : "2021-01-17 00:00:00 +0300",
+      "description" : "",
+      "content"     : "Nedir?2dplat‘tan sonra biraz daha oyun yapmayla uğraşmak istedim godotun hızlı geliştirme ortamı sunması yaparken eğlenmek yeni şeyler öğrenmek beni iyice kendine çekti ve bu seferde 3D yapacağım bide bunu deneyeceğim böylelikle ortaya çıkmış öncekinden bi hayli güzel oyun.Hikayesi varEvet bir hikayesi var ama bu kez aklıma gelme şekli biraz farklı aslında alışık olduğumuz bir aydınlanma :) şöyle oldu:totalde 7 ye yakın konseptde ürün çıkarmayı denedim bir şekilde iş o 3 boyutlu nesnelerin kendi tasarımım olması gerekiyordu içime sinmedi kafayı yiyeceğim günlerce o koltukta oturdum blender çalıştım denemeler yaptım oyun için güzel görünen 3boyutlu tasarım yapmayı beceremedim vs vs derkenherzaman aklımıza mükemmel fikirerin geldiği o yerde tuvalet kağıdı takarken elimden kaydı ve yuvarlanmaya başladı şöyle bir durdum baktım evet tuvalet kağıdı yuvarlama oyunları var ama aklıma gelen gibi yokhemen yazmaya başladım ortalama 2 saat sonra aklımdakine yakın bir taslak çıkmıştı arkadaşlarıma gösterdim feedbackler doğrultusunda bugünkü halini aldı başta çıkan ile sonucun hiç alakası olmasada bir ürünü kendim adına başarılı bir şekilde kullanıcıya sundum.app galery üzerinden indirip deneyebilirsiniz,sağlıcakla :)Kaynaklaroyuna dair herşey buradaburada burada github’da"
+    } ,
+  
+    {
+      "title"       : "godot oyunu 2dplat",
+      "category"    : "oyun",
+      "tags"        : "",
+      "url"         : "./godot-oyunu-2dplat.html",
+      "date"        : "2021-01-17 00:00:00 +0300",
+      "description" : "",
+      "content"     : "Bir godot oyunu 2dplatNedir?Bu tamamen kendimi denemek ve birazda eğlenmek için yaptığım sonrasında arkadaşalarımın hadi bunu paylaş insanlarda görsün dediği ve şuan için 100 kişinin göz gezdirdiği saçma sapan bir 2 boyutlu platform oyunu.Pek başarılı olduğu söylenemez ancakk genelde geri dönüş çok zor yaaa ama çok eğlenceli olacakmış gibi şeklinde oluyor. bir göz atmak isterseniz şuan için app gallery ve amazon store da 2dplat ismiyle bulunuyor.Hikayesi varEvet bir hikayesi var insan beyni ve bilgisayarlar arasında nöral bağlantıyı evinde gerçekleştirebilecek kadar becerikli bir adamın bu bağlantıyı test etmek için pek de becerikli olmadığı bilgisayar oyunuyla test etmek istemesi ve oyundaki buglar yüzünden burdan kurtulamaması olarak başlıyor; Devam ettirmeyi istiyorum ama şuan için üzerinde çalışmaya devam edeceğim.spoilerbiri de ecivici vokke :DKaynaklaroyuna dair herşey buradaİndirmek isterseniz diye market linkleri de burdaburada burada github’da"
+    } ,
+  
+    {
+      "title"       : "Otomatik Vitesli Bisiklet",
+      "category"    : "proje",
+      "tags"        : "otomatik, vitesli, bisiklet, sistemi, arduino, nano, lcd, hız",
+      "url"         : "./otomatik-vitesli-bisiklet.html",
+      "date"        : "2019-01-01 00:00:00 +0300",
+      "description" : "",
+      "content"     : "Otomatik vitesli bisikletBisiklet, ulaşım, eğlence, spor, hobi ve taşımacılık gibi alanlarda kullanılmaktadır. Günümüzde bisikletinde en yaygın olarak kullanılan vites kadronun dışında, ayrı bir birim olarak yer alan ön ve arka aktarıcılara dayanan sistemdir Gidilen yol ile uygulanan güç arasındaki ilişkiyi kontrol eder. Vites sistemi pedala bağlı ayna kol yani ön vites dişli takımından ve arka tekerleğe bağlı arka vites dişli takımından oluşur. Gidon çevresinde bulunan sağ vites kontrol kolu arka vitesi, sol vites kontrol kolu ise ön vitesi kontrol eder. Sürücüyü en az yoran, konforlu ve en çok performans sağlamak ayrıca insanlara bisiklet kullanımını daha çok sevdirmek ve doğa kirliliğini önlemek için otomatik vites sistemini uygun bir çözüm olarak görülmüştürdiyerek başladık söze ve Tübitak a sunduk, projemiz 2 kez konya bölge birincisi oldu bizde en iyisi özgürleştirmek deyip saldık buraya.geliştirdiğimiz sistem ile otomatik tüm rublle dişlili bisikletler , göbekten vitesli bisikletler için kullanabilir olacaksınız.İhtiyacınız olan şeylerarduino (pro mini yada uno ile test ettik)bolca kablo,havya setibir motor sürcüsübir servo motor (mg996 ile yaptık)rotary encoderekran (2*16 veya oled 0.96” için yaptık )hayal gücümatkap,tornavida,vidalar ,flex vs vs bisiklete monte etmek için gereken herşeyel becerisi ve azimbirsürü boru (boyutları verdim biz metal kullandık varsa 3d printer müthiş olur )2 çeşiti varStandar 2*16 ekranlı(alpha 3)vites sistemilcd ekranlı 0.96” (alpha 6 )vites sistemi1.si bizim 3.prototipimiz sağlam ve güzel çalışır ama görüntüsü biraz yanınızda ev telefonu taşımak gibi,4 yada 5 . prototipimiz sağlam temiz çalışıyor ve görüntüsü diğerlerine göre kat kat güzel ve daha küçük :)Birazcık görelimvites sistemibu arkadaş servo motor yardımı ile vites telinin kontrol edilmesini sağlarsıfır switchi vitesin 1 olmasını tetikler yani sistemin referans noktasıdırsayaç ise telin ne kadar çekildiği ya da salındığını sayarcivataya servo motor başı girer. vites sistemivites sistemiBuraya kadar vites telini asılacak sistemi tanıdık… Şimdi Servo motora neler yaptık ona bakalım.vites sistemiservonun elektronik tüm elektronik elelmanlarını çıakrtıp onu bir redüktörlü motora dönüştürdük bu bize teli çekmek için yeterli gücü verir ve mg96 serisi motorun açı sorunlarında kurtarır açı demişken vites sistemi Servo motordaki açı sınırlayıcısını da çıkartıyoruz ve servonun çıkış milini vites telini aktaracak civataya girecek şekilde yontuyoruz .&lt;/hr&gt;vites sistemişekilde görüldüğü gibi elemanları bir araya getiriyoruz kırmızı şeyin orada da rotary encoder ‘ımız zincire bağlı bağımsız bir dişlide hareket ediyor bu da bize pedalın hangi yönde döndüğünü anlamamızı sağlıyoren son sistemin elektronik kısımlarını da bir araya getirelimmm vites sistemikodlar ve açıklamaları elbette burda (ekler içinde teknik çizimler mevcut ):burada github’da"
+    } 
+  
+]

@@ -1,0 +1,28 @@
+<p>Acme.sh Error in deploying certificate - cannot retrieve sitelist cpanel _uapi deploy hook u ile oluşturduğumuz sertifikayı deploy etmeye çalışırken 
+bu hatayı veriyor ve tabikide deploy edemediğimiz için web sitemiz ssl sertifikasız kalıyor.
+Root kullanıcısı olduğumuz için cpanel hangi kullanıcı için sitelist döndecek değil mi? 
+ayrıca bu hatayı hem zerossl hemde lets. için aldım ben.
+Bu hatayı cron ile sertifika yenilerken de verebilir bunun için çözümümüz basit ancak hatanın nedenine bir göz atalım:</p>
+
+<p><strong>deploy/cpanel_uapi.sh</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    _response=$(uapi DomainInfo list_domains)
+
+</code></pre></div></div>
+
+<p>Satırında hiçbir ekstra parametre yok ancak <a href="https://api.docs.cpanel.net/openapi/cpanel/operation/list_domains/">uapi dökümantasyonunda</a>  bu komutta  kesinlikle username olmasını istiyooor :).</p>
+
+<p>o yüzden <strong>deploy/cpanel_uapi.sh</strong> dosyasına küçük bir ekleme yaparak bu hatadan acme.sh bir güncellmee çıkartana dek kurtulabilir ve sitemizi ssllemeye devam edebiliriz.</p>
+
+<p>yukarıdaki satırı değiştirmemiz gereken kod parçası ise tam olarak şu:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    if [ -n "$_uapi_user" ]; then
+      _response=$(uapi --user="$_uapi_user" DomainInfo list_domains)
+    else
+       _response=$(uapi DomainInfo list_domains)
+    fi
+</code></pre></div></div>
+
+<p>burada ise eğer CPANEL_DEPLOY_USER değişkeni tanımlandıysa bu komutu –user parametresi ile gönder değilse zaten bir kullanıcı ile oturum açmışız ve buna ihtiyacımız yok demektir.</p>
+
+<p>Bu şekilde hatayı çözdükten sonra yavaşça koltuğumuza yaslanıp sertifikalarımızın doğru bir şekilde deploy edildiğini izlerken bir sorun olursa acme.sh issue kısmına yazmayı ve bana da birader hatalı bu iş gel sen bundan vazgeç demeyi unutmayın esenle kalın.</p>
