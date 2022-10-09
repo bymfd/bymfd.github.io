@@ -2,4 +2,4 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: https://bymfd.github.io/sitemap.xml
+Sitemap: https://bymfd.github.iohttps://bymfd.github.io/sitemap.xml
